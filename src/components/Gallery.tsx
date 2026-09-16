@@ -187,21 +187,21 @@ export default function GallerySection() {
         </motion.div>
 
         <div className="mb-12">
-          <div className="relative max-w-4xl mx-auto">
-            <div className="absolute left-0 top-1/2 -translate-y-1/2 z-10">
+          <div className="relative w-full max-w-6xl mx-auto">
+            
               <button
                 onClick={() => scrollTabs('left')}
-                className={`p-2 rounded-full bg-red-500 text-white transform transition-opacity duration-200 ${canScrollLeft ? 'opacity-100' : 'opacity-0 pointer-events-none'
-                  } hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2`}
-              >
+                disabled={!canScrollLeft}
+                className="absolute left-0 top-1/2 -translate-y-1/2 z-20 p-2 rounded-full bg-red-500 text-white hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 disabled:opacity-0 transition-opacity"
+                >
                 <ChevronLeft className="w-5 h-5" />
               </button>
-            </div>
+          
 
-            <div className="relative overflow-hidden mx-12">
+       
               <div
                 ref={tabsRef}
-                className="flex gap-2 overflow-x-auto scrollbar-hide scroll-smooth py-2"
+                className=" mx-12 flex gap-2 overflow-x-auto  scroll-smooth py-2 px-2"
                 style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
               >
                 {eventImages.map((event, index) => (
@@ -212,7 +212,7 @@ export default function GallerySection() {
                       setActiveIndex(index);
                       setCurrentPage(1);
                     }}
-                    className={`px-6 py-3 rounded-full whitespace-nowrap transition-all duration-300 flex-shrink-0 ${activeEvent === event.name
+                    className={`px-5 py-3 rounded-full whitespace-nowrap transition-all duration-300 shrink-0 ${activeEvent === event.name
                         ? 'bg-red-500 text-white shadow-lg transform scale-105'
                         : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
                       }`}
@@ -221,7 +221,7 @@ export default function GallerySection() {
                   </button>
                 ))}
               </div>
-            </div>
+         
 
             <div className="absolute right-0 top-1/2 -translate-y-1/2 z-10">
               <button

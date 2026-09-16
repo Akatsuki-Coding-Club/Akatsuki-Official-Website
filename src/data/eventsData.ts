@@ -1,6 +1,66 @@
 import { IEvent } from "@/types";
 
 export const eventImages: IEvent[] = [
+  {
+    id: 'internal-sih-2026',
+    name: 'Internal SIH 2026',
+    photos: [
+      '../images/events/SIH2026/image1.jpg',
+      '../images/events/SIH2026/image3.jpg',
+      '../images/events/SIH2026/image5.jpg',
+      '../images/events/SIH2026/image4.jpg',
+      '../images/events/SIH2026/image2.jpg',
+      '../images/events/SIH2026/image6.jpg',
+      '../images/events/SIH2026/image7.jpg',
+      '../images/events/SIH2026/image8.jpg',
+      '../images/events/SIH2026/image9.jpg',
+      '../images/events/SIH2026/image10.jpg',
+      '../images/events/SIH2026/image11.jpg',
+      '../images/events/SIH2026/image12.jpg',
+    ],
+    text: 'Join the Journey: Uniting Minds, Inspiring Change!'
+  },
+  {
+    id: 'react-cohort-2026',
+    name: 'React Cohort 2026',
+    photos: [
+      '../images/events/ReactCohort2026/image3(day1).jpg',
+      '../images/events/ReactCohort2026/image1(day1).jpg',
+      '../images/events/ReactCohort2026/image2(day5).jpg',
+      '../images/events/ReactCohort2026/image2(day2).jpg',
+      '../images/events/ReactCohort2026/image7(day2).jpg',
+      '../images/events/ReactCohort2026/image4(day3).jpg',
+      '../images/events/ReactCohort2026/image5(day2).jpg',
+      '../images/events/ReactCohort2026/image7(day1).jpg',
+      '../images/events/ReactCohort2026/image1(day3).jpg',
+      '../images/events/ReactCohort2026/image3(day2).jpg',
+      '../images/events/ReactCohort2026/image6(day2).jpg',
+      '../images/events/ReactCohort2026/image6(day5).jpg',
+      '../images/events/ReactCohort2026/image2(day3).jpg',
+      '../images/events/ReactCohort2026/image5(day3).jpg',
+      '../images/events/ReactCohort2026/image4(day2).jpg',
+      '../images/events/ReactCohort2026/image1(day4).jpg',
+      '../images/events/ReactCohort2026/image3(day3).jpg',
+    ],
+    text: 'Join the Journey: Uniting Minds, Inspiring Change!'
+  },
+  {
+    id: 'converges-2026',
+    name: 'Converges 2026',
+    photos: [
+      '../images/events/Converges2026 (The Marvel X)/image10.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image2.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image3.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image4.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image6.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image5.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image7.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image1.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image8.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image9.jpg',
+    ],
+    text: 'Join the Journey: Uniting Minds, Inspiring Change!'
+  },
    {
     id: 'nodevember-3.0',
     name: 'Nodevember 3.0',
@@ -57,8 +117,8 @@ export const eventImages: IEvent[] = [
     text: 'Join the Journey: Uniting Minds, Inspiring Change!'
   },
   {
-    id: 'react-cohort',
-    name: 'React Cohort',
+    id: 'react-cohort-2025',
+    name: 'React Cohort 2025',
     photos: [
       '../images/events/ReactCohort2025/image10.jpg',
       '../images/events/ReactCohort2025/image9.jpg',
