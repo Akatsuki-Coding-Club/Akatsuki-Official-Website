@@ -367,7 +367,21 @@ export const alumni2026: IAlumni[] = [
     name: 'Chaitali Patil',
     role: 'Software Developer',
     image: '../images/alumni/batch2026/chaitali.jpg',
-    company: ['R3SYS India Pvt. Lmt.'],
+    company: ['MSBSVET Govt - 3 LPA','R3SYS India Pvt. Lmt.'],
     batch: 2026,
+  },
+  {
+    name: 'Aniket Patil',
+    role: 'System Engineer',
+    image: '../images/alumni/batch2026/aniket.jpg',
+    company: ['TCS - 3.5 LPA'],
+    batch: 2026,  
+  },
+  {
+    name: 'Sakshi Sawale',
+    role: 'System Engineer',
+    image: '../images/alumni/batch2026/sakshi.jpeg',
+    company: ['TCS - 7 LPA'],
+    batch: 2026,  
   },
 ];
