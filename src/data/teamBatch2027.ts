@@ -10,7 +10,7 @@ const teamMembers: ITeamMember[] = [
   },
 
   {
-    name: 'Gaurav Salunkhe',
+    name: 'Gaurav Salunke',
     role: 'Full Stack Developer',
     image: '../images/members/gaurav.jpg',
     linkedin:

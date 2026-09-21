@@ -5,10 +5,10 @@ export const eventImages: IEvent[] = [
     id: 'internal-sih-2026',
     name: 'Internal SIH 2026',
     photos: [
-      '../images/events/SIH2026/image1.jpg',
       '../images/events/SIH2026/image3.jpg',
       '../images/events/SIH2026/image5.jpg',
       '../images/events/SIH2026/image4.jpg',
+      '../images/events/SIH2026/image1.jpg',
       '../images/events/SIH2026/image2.jpg',
       '../images/events/SIH2026/image6.jpg',
       '../images/events/SIH2026/image7.jpg',
@@ -21,8 +21,8 @@ export const eventImages: IEvent[] = [
     text: 'Join the Journey: Uniting Minds, Inspiring Change!'
   },
   {
-    id: 'react-cohort-2026',
-    name: 'React Cohort 2026',
+    id: 'react-cohort-2.0',
+    name: 'React Cohort 2.0',
     photos: [
       '../images/events/ReactCohort2026/image3(day1).jpg',
       '../images/events/ReactCohort2026/image1(day1).jpg',
@@ -40,7 +40,6 @@ export const eventImages: IEvent[] = [
       '../images/events/ReactCohort2026/image5(day3).jpg',
       '../images/events/ReactCohort2026/image4(day2).jpg',
       '../images/events/ReactCohort2026/image1(day4).jpg',
-      '../images/events/ReactCohort2026/image3(day3).jpg',
     ],
     text: 'Join the Journey: Uniting Minds, Inspiring Change!'
   },
@@ -50,8 +49,7 @@ export const eventImages: IEvent[] = [
     photos: [
       '../images/events/Converges2026 (The Marvel X)/image10.jpg',
       '../images/events/Converges2026 (The Marvel X)/image2.jpg',
-      '../images/events/Converges2026 (The Marvel X)/image3.jpg',
-      '../images/events/Converges2026 (The Marvel X)/image4.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image11.jpg',
       '../images/events/Converges2026 (The Marvel X)/image6.jpg',
       '../images/events/Converges2026 (The Marvel X)/image5.jpg',
       '../images/events/Converges2026 (The Marvel X)/image7.jpg',
@@ -117,8 +115,8 @@ export const eventImages: IEvent[] = [
     text: 'Join the Journey: Uniting Minds, Inspiring Change!'
   },
   {
-    id: 'react-cohort-2025',
-    name: 'React Cohort 2025',
+    id: 'react-cohort',
+    name: 'React Cohort',
     photos: [
       '../images/events/ReactCohort2025/image10.jpg',
       '../images/events/ReactCohort2025/image9.jpg',
