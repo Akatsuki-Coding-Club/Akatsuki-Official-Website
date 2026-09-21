@@ -1935,14 +1935,7 @@ reviews: [
     avatar: '/images/reviews/Rupesh.jpg',
     rating: 5,
   },
-  {
-    name: 'Nishant Patil',
-    username: '@nishant',
-    quote:
-      'This cohort gave me the confidence to build React projects on my own. The hands-on learning and guidance made the experience truly valuable.',
-    avatar: '/images/reviews/Nishant.jpg',
-    rating: 5,
-  },
+
 ],
   },
    'converges-2026': {
