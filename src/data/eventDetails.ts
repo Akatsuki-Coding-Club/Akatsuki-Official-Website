@@ -1567,6 +1567,582 @@
 import { EventData } from '@/types/Event';
 
 export const eventDetails: Record<string, EventData> = {
+  'internal-sih-2026': {
+  main: [
+    {
+      title: 'Internal Smart India Hackathon 2026',
+      text: 'SIH 2026 brought 136 teams together for a high-energy innovation sprint, fostering teamwork, rapid prototyping, and real-world problem-solving under expert mentorship.',
+      date: 'September 5-8, 2026',
+      time: '10:00 AM – 6:00 PM',
+      location: 'R. C. Patel Institute of Technology, Shirpur',
+      coverImage: '../images/events/SIH2026/image3.jpg',
+      description:
+        'The Internal Smart India Hackathon (SIH) 2026, organized by the Akatsuki Coding Club under the guidance of Dr. J. B. Patil, Dr. R. B. Wagh, Mr. M. B. Patil, and Mr. A. S. Chaudhari, served as a dynamic platform for fostering innovation, collaboration, and real-world problem-solving among students. The event witnessed an enthusiastic participation of 136 registered teams in the departmental round, with 75 teams advancing to the institute-level evaluation and 50 teams ultimately qualifying to register for the Global Smart India Hackathon. Throughout the competition, participants refined their ideas through faculty mentorship, structured presentations, and technical evaluation by expert judges, experiencing the complete SIH journey from ideation to solution development. The event strengthened students technical confidence, teamwork, and problem-solving abilities while reaffirming the institutions commitment to nurturing research-driven learning, innovation, and excellence in technology.',
+    },
+  ],
+  photos: [
+      '../images/events/SIH2026/image3.jpg',
+      '../images/events/SIH2026/image5.jpg',
+      '../images/events/SIH2026/image4.jpg',
+      '../images/events/SIH2026/image1.jpg',
+      '../images/events/SIH2026/image2.jpg',
+      '../images/events/SIH2026/image6.jpg',
+      '../images/events/SIH2026/image7.jpg',
+      '../images/events/SIH2026/image8.jpg',
+      '../images/events/SIH2026/image9.jpg',
+      '../images/events/SIH2026/image10.jpg',
+      '../images/events/SIH2026/image11.jpg',
+      '../images/events/SIH2026/image12.jpg',
+  ],
+ schedule: [
+
+  {
+    day: 'Day 1',
+    rounds: [
+      {
+        title: 'Round 1: Idea Submission & Evaluation',
+        description:
+          '136 registered teams presented their ideas for selected problem statements and received guidance from faculty mentors.',
+        tasks: [
+          {
+            name: 'Inauguration & Orientation',
+            description:
+              'The event was inaugurated under the guidance of Dr. J. B. Patil, Dr. R. B. Wagh, and Mr. M. B. Patil.',
+          },
+          {
+            name: 'Idea Presentation',
+            description:
+              'Teams presented their proposed solutions, receiving feedback and technical guidance from mentors and evaluators.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    day: 'Day 2',
+    rounds: [
+      {
+        title: 'Round 2: Institute-Level Evaluation',
+        description:
+          '75 shortlisted teams refined their solutions through mentorship, technical development, and structured presentations.',
+        tasks: [
+          {
+            name: 'Solution Development',
+            description:
+              'Teams improved their ideas and developed practical solutions with continuous faculty mentorship.',
+          },
+          {
+            name: 'Final Evaluation',
+            description:
+              'Teams presented their solutions for technical evaluation, with 50 teams qualifying to register for the Global Smart India Hackathon.',
+          },
+        ],
+      },
+    ],
+  },
+
+],
+reviews: [
+
+  {
+    name: 'Pratik Patil',
+    username: '@pratik',
+    quote:
+      'SIH gave us an opportunity to turn our ideas into practical solutions. The teamwork, mentorship, and problem-solving made it a memorable experience.',
+    avatar: '/images/reviews/Pratik.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Varad Patel',
+    username: '@varad',
+    quote:
+      'Working on a real-world problem during SIH was an amazing learning experience. It challenged us to think creatively and work effectively as a team.',
+    avatar: '/images/reviews/Varad.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Aditya Talhari',
+    username: '@aditya',
+    quote:
+      'SIH pushed us to develop our ideas under pressure while learning from mentors and teammates. It was an exciting and valuable experience.',
+    avatar: '/images/reviews/Aditya.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Madhavi Pawar',
+    username: '@madhavi',
+    quote:
+      'The hackathon helped us improve our problem-solving and collaboration skills. Turning an idea into a working solution was truly rewarding.',
+    avatar: '/images/reviews/Madhavi.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Purva Mahale',
+    username: '@purva',
+    quote:
+      'SIH was a great opportunity to work on real-world challenges and learn through teamwork. The experience helped us grow both technically and creatively.',
+    avatar: '/images/reviews/Purva.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Meghana Ahirrao',
+    username: '@meghana',
+    quote:
+      'The SIH experience was truly inspiring! Working with the team, receiving mentorship, and building our solution made every moment worthwhile.',
+    avatar: '/images/reviews/Meghana.jpg',
+    rating: 5,
+  },
+],
+},
+   'react-cohort-2.0': {
+    main: [
+      {
+        title: 'The React Cohort',
+        text: 'A four-day hands-on program where students built and deployed real-world React apps using modern frontend tools and practices.',
+        date: 'April 27 - May 1, 2026',
+        time: '3:00 PM – 6:00 PM',
+        location: 'Computer Center, Department of Computer Engineering',
+        coverImage: '../images/events/ReactCohort2026/image2(day5).jpg',
+        description:
+          'The five-day program provided second-year students with hands-on experience in modern frontend development. Participants learned React, component-based architecture, Tailwind CSS, and state management to build responsive and interactive applications As a practical project, they developed Akatsuki’s Draft, a platform for anonymously sharing creativity, ideas, and original content. The program also introduced Git, version control, deployment, and hosting through collaborative coding and pair programming.By the end, participants had built a deployable project and gained practical skills and confidence in modern web development.',
+      },
+    ],
+
+    photos: [
+      '../images/events/ReactCohort2026/image3(day1).jpg',
+      '../images/events/ReactCohort2026/image1(day1).jpg',
+      '../images/events/ReactCohort2026/image2(day5).jpg',
+      '../images/events/ReactCohort2026/image2(day2).jpg',
+      '../images/events/ReactCohort2026/image7(day2).jpg',
+      '../images/events/ReactCohort2026/image4(day3).jpg',
+      '../images/events/ReactCohort2026/image5(day2).jpg',
+      '../images/events/ReactCohort2026/image7(day1).jpg',
+      '../images/events/ReactCohort2026/image1(day3).jpg',
+      '../images/events/ReactCohort2026/image3(day2).jpg',
+      '../images/events/ReactCohort2026/image6(day2).jpg',
+      '../images/events/ReactCohort2026/image6(day5).jpg',
+      '../images/events/ReactCohort2026/image2(day3).jpg',
+      '../images/events/ReactCohort2026/image5(day3).jpg',
+      '../images/events/ReactCohort2026/image4(day2).jpg',
+      '../images/events/ReactCohort2026/image1(day4).jpg',
+    
+    ],
+   schedule: [
+  {
+    day: 'Day 1',
+    rounds: [
+      {
+        title: 'Front-End Foundations & JavaScript Essentials',
+        description:
+          'Day 1 set the foundation for the journey into modern web development. Students explored how web interfaces evolved from simple static pages to dynamic applications, while gaining hands-on experience with JavaScript, browser concepts, and DOM manipulation.',
+        tasks: [
+          {
+            name: 'Inauguration & Introduction to Front-End',
+            description:
+              'Guided by Dr. J. B. Patil and Dr. R. B. Wagh, students explored the evolution of frontend development — from traditional HTML pages to modern, interactive React-based interfaces.',
+          },
+          {
+            name: 'JavaScript Fundamentals',
+            description:
+              'With Mohit Patil, students strengthened their understanding of JavaScript fundamentals through practical examples, coding exercises, and hands-on exploration in the browser console.',
+          },
+          {
+            name: 'TypeScript',
+            description:
+              'Rohit Patil introduced students to TypeScript, focusing on its core concepts and how it helps developers build more structured, readable, and maintainable applications.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    day: 'Day 2',
+    rounds: [
+      {
+        title: 'Tailwind CSS And React Components',
+        description:
+          'Day 2 brought React into action as students created reusable components and interactive interfaces. They also explored state management and Tailwind CSS to build responsive and visually appealing web applications.',
+        tasks: [
+	{
+            name: 'Tailwind CSS ',
+            description:
+              'Nitin Chaudhari and Rohini Nikam introduced utility-first styling with Tailwind CSS, helping students create responsive and modern interfaces efficiently.'
+          },
+          {
+            name: 'React Components & JSX',
+            description:
+              'Vaijavi Pawar guided students through React components and JSX, helping them understand how reusable UI elements can be designed and organized effectively.',
+          }
+        ],
+      },
+    ],
+  },
+{
+  day: 'Day 3',
+  rounds: [
+    {
+      title: 'React Props, Hooks & Project Initialization',
+      description:
+        'Day 3 focused on strengthening React fundamentals and moving toward project development. Students explored props and hooks, initialized their project structure, and started building an engaging landing page with reusable and interactive components.',
+      tasks: [
+        {
+          name: 'React Props',
+          description:
+            'Diya Jain guided students through React props, explaining how data can be passed between components to create reusable and well-structured interfaces.',
+        },
+        {
+          name: 'React Hooks',
+          description:
+            'Jidnyasa Patil introduced students to essential React hooks and demonstrated how they can be used to manage state and component behavior effectively.',
+        },
+        {
+          name: 'Project Initialization & Landing Page',
+          description:
+            'Pranali Pawar guided students through project initialization and the development of the landing page, focusing on layout, reusable components, navigation, and a clean user interface.',
+        },
+      ],
+    },
+  ],
+},
+  {
+    day: 'Day 4',
+    rounds: [
+      {
+        title: 'Project Development & Routing Concepts',
+        description:
+          'Day 4 focused on turning concepts into a working project. Students started developing their Online Project Selling Platforms while learning routing, state sharing, forms, API integration, and practical React patterns used in real applications.',
+        tasks: [
+          {
+            name: 'React Router & State Management',
+            description:
+              'Rohit Patil guided students to explore React Router for creating smooth page navigation and learned state lifting techniques to share and manage data between different components.',
+          },
+          {
+            name: 'Forms, useEffect & Data Fetching',
+            description:
+              'Students worked with forms, the useEffect hook, and API-based data fetching to build interfaces capable of handling user input and dynamic application data.',
+          },
+          {
+            name: 'Context API (Intro)',
+            description:
+              'Students were introduced to the Context API and learned how it can simplify sharing common application data across components without unnecessary prop passing.',
+          },
+        ],
+      },
+    ],
+  },
+  {
+    day: 'Day 5',
+    rounds: [
+      {
+        title: 'Finalization & Deployment',
+        description:
+          'The final day focused on bringing everything together. Students refined their projects, completed the remaining features, connected their code with GitHub, and learned how to deploy their applications using Vercel.',
+        tasks: [
+          {
+            name: 'Final Touches & Project Completion',
+            description:
+              'Students completed their projects by refining the UI, improving navigation, fixing functionality, and bringing all the learned concepts together into a working application.',
+          },
+          {
+            name: 'Vercel Deployment & GitHub',
+            description:
+              'Students learned the basics of managing their projects with GitHub and deploying their frontend applications to the web using Vercel.',
+          },
+          {
+            name: 'Wrap-Up & Certification Briefing',
+            description:
+              'The program concluded with a recap of the key concepts, project reflections, and guidance for continuing their development journey, followed by the certification process.',
+          },
+        ],
+      },
+    ],
+  },
+],
+  winners: [
+      {
+        rank:1,
+        teamName: 'Yash Bagal',
+        prize: 'Day 1 Quiz',
+        members: ['Topic: Javascript and Typescript'],
+      },
+      {
+        rank: 1,
+        teamName: 'Tanvi Patil',
+        prize: 'Day 2 Quiz',
+        members: ['Topic: Tailwind CSS'],
+      },{
+        rank: 1,
+        teamName: 'Nirmal Parmar',
+        prize: 'Day 3 Quiz',
+        members: ['Topic: React Fundamentals'],
+      },{
+        rank: 1,
+        teamName: 'Yashasvi Patil',
+        prize: 'Day 4 Quiz',
+        members: ['Topic: React Js'],
+      },
+      {
+        rank: 1,
+        teamName: 'Krish Shah',
+        prize: 'Day 5 Quiz',
+        members: ['Topic: React Js'],
+      },{
+        rank: 1,
+        teamName: 'Manasvi Patil',
+        prize: 'Day 6 Quiz',
+        members: ['Topic: React Js'],
+      },
+  ],
+   reviews: [
+  {
+    name: 'Chetana Behere',
+    username: '@chetana',
+    quote:
+      'The React Cohort made learning React feel practical and exciting. Building projects along the way made everything easier to understand.',
+    avatar: '/images/reviews/Chetana.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Leeza Mansuri',
+    username: '@leeza',
+    quote:
+      'Learning React through hands-on sessions was an amazing experience. Each day brought something new to explore and build.',
+    avatar: '/images/reviews/Leeza.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Mayuri Rajput',
+    username: '@mayuri',
+    quote:
+      'From understanding components to building complete interfaces, the React Cohort helped me gain confidence in frontend development.',
+    avatar: '/images/reviews/Mayuri.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Kirti Badgujar',
+    username: '@kirti',
+    quote:
+      'The sessions were engaging and practical. Building React projects helped me understand concepts that seemed difficult at first.',
+    avatar: '/images/reviews/Kirti.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Rupesh Girase',
+    username: '@rupesh',
+    quote:
+      'The React Cohort was a great learning experience. Working with components, state, and modern UI tools made frontend development much more interesting.',
+    avatar: '/images/reviews/Rupesh.jpg',
+    rating: 5,
+  },
+
+],
+  },
+   'converges-2026': {
+    main: [
+      {
+        title: 'The Marvel X',
+        text: 'An immersive Marvel-themed coding adventure blending creativity, strategy, teamwork, and competitive problem-solving.',
+        date: 'March 6-7, 2026',
+        time: '9:00 AM – 6:00 PM',
+        location: 'R. C. Patel Institute of Technology, Shirpur',
+        coverImage: '../images/events/Converges2026 (The Marvel X)/image4.jpg',
+        description:
+          'MarvelX was a one-of-a-kind coding event at Converges 2026 that fused the epic scale of the Marvel Cinematic Universe with the intensity of competitive programming, transforming coding into an immersive superhero adventure. Inspired by the journey to collect the Infinity Stones and face the ultimate Endgame, the event challenged participants to think strategically, solve problems under pressure, and make crucial decisions that shaped their path through the competition. Each round introduced a unique blend of logic, speed, creativity, risk assessment, and teamwork, creating an experience that extended far beyond traditional coding contests. As the stakes escalated from the Wheel of Infinity to Risk or Run and finally The End Game, participants navigated dynamic challenges that rewarded adaptability, precision, and quick thinking. Beyond the competition itself, MarvelX created an electrifying atmosphere that brought together passionate coders, celebrated collaboration and innovation, and left participants with stronger technical confidence, unforgettable memories, and the thrill of becoming heroes in their own coding saga.',
+      },
+    ],
+    photos: [
+      '../images/events/Converges2026 (The Marvel X)/image10.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image2.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image11.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image6.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image11.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image7.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image1.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image8.jpg',
+      '../images/events/Converges2026 (The Marvel X)/image9.jpg',
+    ],
+    schedule: [
+      {
+  day: 'Day 1',
+  rounds: [
+    {
+      title: 'Round 1: Quantum Words',
+      description:
+        'Quantum Words served as the opening round of MarvelX, introducing participants to a dynamic blend of speed, creativity, and teamwork inspired by the Marvel universe. Designed to test communication, quick thinking, and adaptability, the round featured two unique challenges that required teams to think beyond conventional coding and collaborate effectively under time pressure.',
+      tasks: [
+        {
+          name: 'Task 1: Wheel of Infinity',
+          description:
+            'The first challenge transformed word-building into an energetic race against time. Using two rotating wheels—one containing vowels and the other consonants—players spun for letters, sprinted to collect them, and returned them to their teammates. As letters accumulated, teams immediately began forming valid words in real time, earning points based on each word’s length. The five-minute challenge rewarded coordination, vocabulary, and rapid decision-making, creating an exciting atmosphere where every second and every letter mattered.',
+        },
+        {
+          name: 'Task 2: Pixel Assemble',
+          description:
+            'The second challenge shifted the focus from speed to creativity. Each team received a superhero character as a hidden reference and had to recreate the image using an AI image generator solely through carefully crafted prompts. Success depended on observation, descriptive precision, and prompt engineering, as the generated image was scored based on its similarity to the original reference. By combining imagination with emerging AI tools, Pixel Assemble encouraged participants to think creatively while demonstrating how effective prompting can transform ideas into visual reality.',
+        },
+      ],
+    },
+  ],
+},
+{
+  day: 'Day 2',
+  rounds: [
+    {
+      title: 'Round 2: Risk or Run',
+      description:
+        'Risk or Run challenged teams to make smart decisions under pressure by choosing whether to attempt a question or skip it based on a given hint. While skipping was allowed, only three consecutive runs were permitted, making strategy essential. The round’s signature Double Down twist offered a chance to double earned points, but a wrong answer reset the team’s score to zero. Every decision carried consequences, rewarding confidence, quick judgment, and calculated risk-taking.',
+      tasks: [
+        {
+          name: 'Task 1: Risk or Run',
+          description:
+            'Teams received a brief hint before each question and had to decide whether to attempt it for points or skip it without affecting their score. With only three consecutive skips allowed, every decision demanded confidence, quick thinking, and smart strategy. The challenge tested not only technical knowledge but also the ability to make the right decision under pressure.',
+        },
+        {
+          name: 'Task 2: Double Down',
+          description:
+            'Teams could activate Double Down whenever they felt confident, doubling their earned points for a correct answer. However, a wrong answer reset their total score to zero, making it the ultimate high-risk, high-reward challenge. The task pushed teams to carefully evaluate their confidence, balance risk against reward, and make bold decisions when the stakes were highest.',
+        },
+      ],
+    },
+    {
+      title: 'Round 3: The End Game',
+      description:
+        'The End Game was the grand finale of MarvelX, where every challenge, decision, and strategy came together in an immersive Marvel-inspired battle. Teams competed across different universes, collected Infinity Stones with unique powers, and adapted to unexpected twists that could change the course of the game. The final round tested teamwork, quick thinking, tactical planning, and adaptability until the very last moment, creating a thrilling conclusion to the MarvelX journey.',
+      tasks: [
+        {
+          name: 'Task 1: Infinity Stone Hunt',
+          description:
+            'Teams encountered cryptic riddles, coded hints, and hidden messages that demanded sharp logic and creative interpretation. Every puzzle cracked opened a new doorway, building tension and excitement with each reveal.',
+        },
+        {
+          name: 'Task 2: Blip Protocol',
+          description:
+            'The final showdown introduced the Blip mechanic, where teams used their collected Infinity Stones to gain tactical advantages while protecting their progress. Every move had the potential to reshape the leaderboard, making it a thrilling conclusion to the competition.',
+        },
+      ],
+    },
+  ],
+}
+    ],
+    reels: [
+      {
+        id: 1,
+        url: 'https://www.instagram.com/p/DU5tJ5tgrl_/',
+        thumbnail: '/images/events/Thumbnails/The_MarvelX/URL1.jpg',
+      },
+      {
+        id: 2,
+        url: 'https://www.instagram.com/p/DU-3h0YDwch/',
+        thumbnail: '/images/events/Thumbnails/The_MarvelX/URL2.jpg',
+      },
+      {
+        id: 3,
+        url: 'https://www.instagram.com/p/DVGm27wkx34/',
+        thumbnail: '/images/events/Thumbnails/The_MarvelX/URL3.jpg',
+      },
+      {
+        id: 4,
+        url: 'https://www.instagram.com/p/DVTdcdKkwjn/',
+        thumbnail: '/images/events/Thumbnails/The_MarvelX/URL4.jpg',
+      },
+      {
+        id: 5,
+        url: 'https://www.instagram.com/p/DVV-vtMAjZj/',
+        thumbnail: '/images/events/Thumbnails/The_MarvelX/URL5.jpg',
+      },
+      {
+        id: 6,
+        url: 'https://www.instagram.com/p/DVYk0T9gpZi/',
+        thumbnail: '/images/events/Thumbnails/The_MarvelX/URL6.jpg',
+      },
+      {
+        id: 7,
+        url: 'https://www.instagram.com/p/DVjCFu-D_MH/',
+        thumbnail: '/images/events/Thumbnails/The_MarvelX/URL7.jpg',
+      },
+      {
+        id: 8,
+        url: 'https://www.instagram.com/p/DVtO7G_Eyir/',
+        thumbnail: '/images/events/Thumbnails/The_MarvelX/URL8.jpg',
+      },
+      {
+        id: 9,
+        url: 'https://www.instagram.com/p/DVybJP1AkLk/',
+        thumbnail: '/images/events/Thumbnails/The_MarvelX/URL9.jpg',
+      }
+    ],
+    winners: [
+      {
+        rank: 1,
+        teamName: 'Team Coded Crusaders',
+        prize: '₹5,000',
+        members: ['Paras Mahajan', 'Ritesh Chopade','Prathamesh Jadhav','Pranav Chopade'],
+      },
+      {
+        rank: 2,
+        teamName: 'Team Alt F4',
+        prize: '₹3,000',
+        members: ['Vinit Chaudhari','Parth Patil', 'Nayan Bhadane','Om Nandre'],
+      },
+      {
+        rank: 3,
+        teamName: 'Team ShiledCodex',
+        prize: '₹2,000',
+        members: ['Digambar Patil','Atharv Marathe','Prashant Patil','Suraj Patil'],
+      },
+    ],
+   reviews: [
+  {
+    name: 'Paras Mahajan',
+    username: '@paras',
+    quote:
+      'Marvel X was an incredible experience! The Marvel-themed challenges made every round exciting, competitive, and full of surprises.',
+    avatar: '/images/reviews/Paras.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Atharv Marathe',
+    username: '@atharv',
+    quote:
+      'The Marvel X event was amazing! From the creative challenges to the intense competition, every moment felt like an adventure.',
+    avatar: '/images/reviews/Atharv.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Parth Patil',
+    username: '@parth',
+    quote:
+      'The Marvel X event was a memorable experience! The exciting challenges, teamwork, and Marvel theme made the competition truly special.',
+    avatar: '/images/reviews/Parth.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Kaveri Chaudhari',
+    username: '@kaveri',
+    quote:
+      'Marvel X was a fantastic experience! The creative challenges and Marvel-themed activities made the entire event exciting and unforgettable.',
+    avatar: '/images/reviews/Kaveri.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Rajnandini Sonawane',
+    username: '@rajnandini',
+    quote:
+      'The Marvel X event brought together fun, competition, and teamwork perfectly. Every challenge was exciting and kept us engaged throughout.',
+    avatar: '/images/reviews/Rajnandini.jpg',
+    rating: 5,
+  },
+  {
+    name: 'Purva Mahale',
+    username: '@purva',
+    quote:
+      'Marvel X was an amazing blend of creativity, strategy, and competition. The Marvel theme made every challenge even more enjoyable.',
+    avatar: '/images/reviews/Purva.jpg',
+    rating: 5,
+  },
+],
+  },
   'nodevember-3.0': {
   main: [
     {

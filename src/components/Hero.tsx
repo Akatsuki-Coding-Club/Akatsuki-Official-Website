@@ -20,6 +20,10 @@ const images = [
     src: './assets/background3.jpg',
     alt: 'Akatsuki Image 3',
   },
+  {
+    src:'./assets/background5.jpg',
+    alt: 'Akatsuki Image 5',
+  }
 ];
 
 const Hero: React.FC = () => {

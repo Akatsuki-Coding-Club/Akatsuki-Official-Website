@@ -79,8 +79,8 @@ const Contact: React.FC = () => {
     {
       icon: <Phone className="w-8 h-8" />,
       title: 'Call Us',
-      content: '+91 8855960658',
-      link: 'tel:+918855960658',
+      content: '+91 8446014855',
+      link: 'tel:+918446014855',
     },
     {
       icon: <Instagram className="w-8 h-8" />,
